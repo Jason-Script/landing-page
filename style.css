@@ -142,5 +142,45 @@ h2 {
 }
 
 .email-list-section {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    height: 150px;
+    border-radius: 2%;
+    align-items: center;
+}
+
+.call-text {
+    margin-left: 50px;
+}
+
+.call-text1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sign-up2 {
+    border: solid 2px white;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-weight: lighter;
+    font-size: 18px;
 }
